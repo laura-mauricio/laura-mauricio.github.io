@@ -1,0 +1,20 @@
+---
+title: "Laura & Mauricio"
+site: distill::distill_website
+listing: posts
+
+---
+  
+<div style="width: 100%; float: left;">
+
+</div>
+
+
+
+<div style="width: 100%; float: right;">
+
+<br/>
+<br/>
+![](imgs/myself3.png)
+
+</div>

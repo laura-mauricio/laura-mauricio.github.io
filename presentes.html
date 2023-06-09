@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Laura &amp; Mauricio</title>
+
+<script src="site_libs/header-attrs-2.21/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Casamento Laura & Mauricio</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="presentes.html">Lista de Presentes</a>
+</li>
+<li>
+  <a href="presenca.html">Presença</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Laura &amp; Mauricio</h1>
+
+</div>
+
+
+<style type="text/css">
+  body {
+   <!-- background-image: url("imgs/Untitled.jpeg"); -->
+  }
+.section.level3 {
+  background-color: #f3f3f3;
+  border: 1px solid #ebebeb;
+  color: #868686;
+  font-size: 16px;
+  height: 350px;
+  margin-bottom: 30px;
+  margin-right: 30px;
+  max-height: 350px;
+  text-align: center;
+}
+</style>
+<div>
+<div style="width: 33%; float: left">
+<div id="ajuda-para-a-aposentadoria-dos-noivos" class="section level3">
+<h3>Ajuda para a aposentadoria dos noivos</h3>
+<p><img src="imgs/casal_relaxando.jpg" width="80%" style="display: block; margin: auto auto auto 0;" /></p>
+<div id="r-3.10849" class="section level4">
+<h4>R$ 3.108,49</h4>
+</div>
+<div id="faça-um-pix-para-os-noivos" class="section level4">
+<h4>Faça um pix para os noivos</h4>
+</div>
+</div>
+<div id="ajuda-para-mobiliar-a-casa" class="section level3">
+<h3>Ajuda para mobiliar a casa</h3>
+<p><img src="imgs/casa_mobiliada.jpg" width="80%" style="display: block; margin: auto auto auto 0;" /></p>
+<div id="r-1.03616" class="section level4">
+<h4>R$ 1.036,16</h4>
+</div>
+</div>
+<div id="ajuda-para-os-noivos-comprarem-dólares-pra-viagem"
+class="section level3">
+<h3>Ajuda para os noivos comprarem dólares pra viagem</h3>
+<p><img src="imgs/dolar.png" width="80%" style="display: block; margin: auto auto auto 0;" /></p>
+<div id="r-46627" class="section level4">
+<h4>R$ 466,27</h4>
+</div>
+</div>
+<div id="aparelho-de-jantar" class="section level3">
+<h3>Aparelho de Jantar</h3>
+<p><img src="imgs/aparelho-de-jantar-42-pecas.jpg" width="80%" style="display: block; margin: auto auto auto 0;" /></p>
+<div id="r37302" class="section level4">
+<h4>R$373,02</h4>
+</div>
+</div>
+<div id="aspirador-de-pó-ciclônico-2-em-1-vertical-1200w"
+class="section level3">
+<h3>Aspirador de Pó Ciclônico 2 em 1 Vertical 1200W</h3>
+<p><img src="imgs/Aspirador_de_Po_Ciclonico.jpg" width="80%" style="display: block; margin: auto auto auto 0;" /></p>
+<div id="r-24868" class="section level4">
+<h4>R$ 248,68</h4>
+</div>
+</div>
+<div id="aspirador-robo-keep-clean" class="section level3">
+<h3>Aspirador Robo Keep Clean</h3>
+<p><img src="imgs/Aspirador_Robo_Keep_Clean.jpg" width="80%" style="display: block; margin: auto auto auto 0;" /></p>
+<div id="r1.50243" class="section level4">
+<h4>R$1.502,43</h4>
+</div>
+</div>
+<div id="assadeira-retangular-alumínio-ecolon-43-cm-x-21-cm"
+class="section level3">
+<h3>Assadeira Retangular Alumínio Ecolon 43 cm x 21 cm</h3>
+<p><img src="imgs/Assadeira_Retangular_Aluminio_Ecolon.jpg" width="80%" style="display: block; margin: auto auto auto 0;" /></p>
+<div id="r-26837" class="section level4">
+<h4>R$ 268,37</h4>
+</div>
+</div>
+</div>
+<div style="width: 33%; float: left">
+<div id="batedeira-planetária-bowl-750w" class="section level3">
+<h3>Batedeira Planetária Bowl 750W</h3>
+<p><img src="imgs/Batedeira_Planetaria_Bowl_750W.jpg" width="80%" style="display: block; margin: auto auto auto 0;" /></p>
+<div id="r-51290" class="section level4">
+<h4>R$ 512,90</h4>
+</div>
+</div>
+<div id="capacete-contra-rolo-de-macarrão-para-o-noivo"
+class="section level3">
+<h3>Capacete contra rolo de macarrão para o noivo</h3>
+<p><img src="imgs/capacete.jpg" width="80%" style="display: block; margin: auto auto auto 0;" /></p>
+<div id="r-16579" class="section level4">
+<h4>R$ 165,79</h4>
+</div>
+</div>
+<div id="cesto-de-roupa-trama-com-tampa-e-rodízios"
+class="section level3">
+<h3>Cesto de Roupa Trama com Tampa e Rodízios</h3>
+<p><img src="imgs/Cesto_de_Roupa_Trama_com_Tampa.jpg" width="80%" style="display: block; margin: auto auto auto 0;" /></p>
+<div id="r-32639" class="section level4">
+<h4>R$ 326,39</h4>
+</div>
+</div>
+<div id="chaleira-elétrica-gourmand-gris-18l" class="section level3">
+<h3>Chaleira Elétrica Gourmand Gris 1,8L</h3>
+<p><img src="imgs/Chaleira_Eletrica_Gourmand_Gris.jpg" width="80%" style="display: block; margin: auto auto auto 0;" /></p>
+<div id="r-46627-1" class="section level4">
+<h4>R$ 466,27</h4>
+</div>
+</div>
+<div id="conjunto-de-bowl" class="section level3">
+<h3>Conjunto de bowl</h3>
+<p><img src="imgs/conjunto-de-bowl-em-ceramica-4-pecas.jpg" width="80%" style="display: block; margin: auto auto auto 0;" /></p>
+<div id="r-35644" class="section level4">
+<h4>R$ 356,44</h4>
+</div>
+</div>
+<div id="conjunto-de-controle-remotos-para-não-ter-briga"
+class="section level3">
+<h3>Conjunto de controle remotos para não ter briga</h3>
+<p><img src="imgs/controles_remotos.jpg" width="80%" style="display: block; margin: auto auto auto 0;" /></p>
+<div id="r-15542" class="section level4">
+<h4>R$ 155,42</h4>
+</div>
+</div>
+<div id="conjunto-de-descascador-de-alimentos" class="section level3">
+<h3>Conjunto de descascador de alimentos</h3>
+<p><img src="imgs/conjunto-de-descascador-de-alimentos.jpg" width="80%" style="display: block; margin: auto auto auto 0;" /></p>
+<div id="r-8279" class="section level4">
+<h4>R$ 82,79</h4>
+</div>
+</div>
+</div>
+<div style="width: 33%; float: left">
+<div id="conjunto-de-panelas" class="section level3">
+<h3>Conjunto de panelas</h3>
+<p><img src="imgs/conjunto-de-panela-ferro-fundido-2-pecas.jpg" width="80%" style="display: block; margin: auto;" /></p>
+<div id="r-25904" class="section level4">
+<h4>R$ 259,04</h4>
+</div>
+</div>
+<div id="conjunto-para-sala-de-jantar" class="section level3">
+<h3>Conjunto para sala de jantar</h3>
+<p><img src="imgs/conjunto-para-sala-de-jantar-com-mesa-e-4-lugares.jpg" width="80%" style="display: block; margin: auto 0 auto auto;" /></p>
+<div id="r-72531" class="section level4">
+<h4>R$ 725,31</h4>
+</div>
+</div>
+<div id="cooktop-elétrico" class="section level3">
+<h3>Cooktop elétrico</h3>
+<p><img src="imgs/cooktop-eletrico-4-bocas.jpg" width="80%" style="display: block; margin: auto auto auto 0;" /></p>
+<div id="r-2.69402" class="section level4">
+<h4>R$ 2.694,02</h4>
+</div>
+</div>
+<div id="coral-pra-cantar-aleluia-na-entrada-do-noivo"
+class="section level3">
+<h3>Coral pra cantar “Aleluia” na entrada do noivo</h3>
+<p><img src="imgs/coral_de_casamento.jpg" width="80%" style="display: block; margin: auto auto auto 0;" /></p>
+<div id="r-56989" class="section level4">
+<h4>R$ 569,89</h4>
+</div>
+</div>
+<div id="cortador-de-pizza" class="section level3">
+<h3>Cortador de pizza</h3>
+<p><img src="imgs/cortador-de-pizza.jpg" width="80%" style="display: block; margin: auto auto auto 0;" /></p>
+<div id="r-3212" class="section level4">
+<h4>R$ 32,12</h4>
+</div>
+</div>
+<div id="cota-amigos-para-sempre" class="section level3">
+<h3>Cota “amigos para sempre”</h3>
+<p><img src="imgs/amigos_velhinhos.jpg" width="80%" style="display: block; margin: auto auto auto 0;" /></p>
+<div id="r-2.59041" class="section level4">
+<h4>R$ 2.590,41</h4>
+</div>
+</div>
+<div id="edredon" class="section level3">
+<h3>edredon</h3>
+<p><img src="imgs/amigos_velhinhos.jpg" width="80%" style="display: block; margin: auto auto auto 0;" /></p>
+<div id="r-2.59041-1" class="section level4">
+<h4>R$ 2.590,41</h4>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

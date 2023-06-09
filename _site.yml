@@ -1,0 +1,22 @@
+html_document:
+  anchor_sections: false
+name: "Casamento Laura & Mauricio"
+output_dir: "."
+base_url: https://yclavinas.github.io
+navbar:
+  title: "Casamento Laura & Mauricio"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Lista de Presentes"
+      href: presentes.html
+    - text: "Presença"
+      href: presenca.html
+  
+collections:
+  posts:
+    categories: false
+    categories_metadata: false
+    authors_metadata: false
+    share: [twitter, linkedin]
+
