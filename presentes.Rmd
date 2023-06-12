@@ -15,17 +15,17 @@ header-includes: \usepackage{xcolor}
   border: 1px solid #ebebeb;
   color: #868686;
   font-size: 16px;
-  height: 350px;
-  margin-bottom: 30px;
-  margin-right: 30px;
-  max-height: 350px;
+  height: 500px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  max-height: 500px;
   text-align: center;
 }
 ```
 
 <div>
 
-<div style="width: 33%; float: left"> 
+<div style="width: 50%; float: left"> 
 
 ### Ajuda para a aposentadoria dos noivos
 ```{r casal_relaxando, echo=FALSE, out.width = '80%', fig.align='left', class.source='myClass'}
@@ -34,7 +34,10 @@ knitr::include_graphics("imgs/casal_relaxando.jpg")
 
 #### R$ 3.108,49 
 
-#### Faça um pix para os noivos
+#### Faça um pix para os noivos:
+#### Maurício Feijó Montenegro Júnior 
+#### Pix celular 61983292815
+#### Banco do Brasil
 
 
 ### Ajuda para mobiliar a casa 
@@ -79,9 +82,39 @@ knitr::include_graphics("imgs/Assadeira_Retangular_Aluminio_Ecolon.jpg")
 ```
 
 #### R$ 268,37
+
+
+### Conjunto de panelas 
+```{r conjunto-de-panela-ferro-fundido-2-pecas, echo=FALSE, out.width = '80%', fig.align='center'}
+knitr::include_graphics("imgs/conjunto-de-panela-ferro-fundido-2-pecas.jpg")
+```
+
+#### R$ 259,04
+
+### Conjunto para sala de jantar 
+```{r conjunto-para-sala-de-jantar-com-mesa-e-4-lugares, echo=FALSE, out.width = '80%', fig.align='right'}
+knitr::include_graphics("imgs/conjunto-para-sala-de-jantar-com-mesa-e-4-lugares.jpg")
+```
+
+#### R$ 725,31
+
+### Cooktop elétrico 
+```{r cooktop-eletrico-4-bocas, echo=FALSE, out.width = '80%', fig.align='left'}
+knitr::include_graphics("imgs/cooktop-eletrico-4-bocas.jpg")
+```
+
+#### R$ 2.694,02
+
+### Coral pra cantar "Aleluia" na entrada do noivo 
+```{r coral_de_casamento, echo=FALSE, out.width = '80%', fig.align='left'}
+knitr::include_graphics("imgs/coral_de_casamento.jpg")
+```
+
+#### R$ 569,89 
+
 </div>
 
-<div style="width: 33%; float: left"> 
+<div style="width: 50%; float: left"> 
 
 ### Batedeira Planetária Bowl 750W
 ```{r Batedeira_Planetaria_Bowl_750W, echo=FALSE, out.width = '80%', fig.align='left'}
@@ -134,38 +167,6 @@ knitr::include_graphics("imgs/conjunto-de-descascador-de-alimentos.jpg")
 
 #### R$ 82,79
 
-</div>
-
-<div style="width: 33%; float: left"> 
-
-
-### Conjunto de panelas 
-```{r conjunto-de-panela-ferro-fundido-2-pecas, echo=FALSE, out.width = '80%', fig.align='center'}
-knitr::include_graphics("imgs/conjunto-de-panela-ferro-fundido-2-pecas.jpg")
-```
-
-#### R$ 259,04
-
-### Conjunto para sala de jantar 
-```{r conjunto-para-sala-de-jantar-com-mesa-e-4-lugares, echo=FALSE, out.width = '80%', fig.align='right'}
-knitr::include_graphics("imgs/conjunto-para-sala-de-jantar-com-mesa-e-4-lugares.jpg")
-```
-
-#### R$ 725,31
-
-### Cooktop elétrico 
-```{r cooktop-eletrico-4-bocas, echo=FALSE, out.width = '80%', fig.align='left'}
-knitr::include_graphics("imgs/cooktop-eletrico-4-bocas.jpg")
-```
-
-#### R$ 2.694,02
-
-### Coral pra cantar "Aleluia" na entrada do noivo 
-```{r coral_de_casamento, echo=FALSE, out.width = '80%', fig.align='left'}
-knitr::include_graphics("imgs/coral_de_casamento.jpg")
-```
-
-#### R$ 569,89 
 
 ### Cortador de pizza 
 ```{r cortador-de-pizza, echo=FALSE, out.width = '80%', fig.align='left'}
@@ -188,6 +189,12 @@ knitr::include_graphics("imgs/amigos_velhinhos.jpg")
 ```
 
 #### R$ 2.590,41
+
+</div>
+
+<div style="width: 50%; float: left"> 
+
+
 
 
 </div>

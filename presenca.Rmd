@@ -1,6 +1,10 @@
 ---
-title: "Laura & Mauricio"
+title: "Confirme sua presença"
 site: distill::distill_website
 listing: posts
 ---
 
+
+### Preencha o formulario Google com seu nome e de seus acompanhantes
+
+https://forms.gle/HbM7rCU2m1ZxVSvP8
