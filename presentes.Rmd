@@ -6,6 +6,9 @@ listing: posts
 header-includes: \usepackage{xcolor}
 ---
 
+----
+
+
 ```{css, echo=FALSE}
   body {
    <!-- background-image: url("imgs/Untitled.jpeg"); -->
@@ -15,10 +18,10 @@ header-includes: \usepackage{xcolor}
   border: 1px solid #ebebeb;
   color: #868686;
   font-size: 16px;
-  height: 500px;
+  height: 400px;
   margin-bottom: 10px;
   margin-right: 10px;
-  max-height: 500px;
+  max-height: 400px;
   text-align: center;
 }
 
@@ -39,6 +42,7 @@ De forma geral, os presentes serão recebidos via pix:
 </div>
 
 ----
+
 <br>
 
 
@@ -53,10 +57,7 @@ knitr::include_graphics("imgs/casal_relaxando.jpg")
 
 #### R$ 3.108,49 
 
-#### Faça um pix para os noivos:
-#### Maurício Feijó Montenegro Júnior 
-#### Pix celular 61983292815
-#### Banco do Brasil
+#### Chave pix no topo da página
 
 
 ### Ajuda para mobiliar a casa 
@@ -66,6 +67,8 @@ knitr::include_graphics("imgs/casa_mobiliada.jpg")
 
 #### R$ 1.036,16
 
+#### Chave pix no topo da página
+
 
 ### Ajuda para os noivos comprarem dólares pra viagem
 ```{r dolar, echo=FALSE, out.width = '80%', fig.align='left'}
@@ -74,6 +77,8 @@ knitr::include_graphics("imgs/dolar.png")
 
 #### R$ 466,27
 
+#### Chave pix no topo da página
+
 ### Aparelho de Jantar
 ```{r aparelho-de-jantar-42-pecas, echo=FALSE, out.width = '80%', fig.align='left'}
 knitr::include_graphics("imgs/aparelho-de-jantar-42-pecas.jpg")
@@ -81,12 +86,16 @@ knitr::include_graphics("imgs/aparelho-de-jantar-42-pecas.jpg")
 
 #### R$373,02  
 
+#### Chave pix no topo da página
+
 ### Aspirador de Pó Ciclônico 2 em 1 Vertical 1200W
 ```{r Aspirador_de_Po_Ciclonico, echo=FALSE, out.width = '80%', fig.align='left'}
 knitr::include_graphics("imgs/Aspirador_de_Po_Ciclonico.jpg")
 ```
 
 #### R$ 248,68
+
+#### Chave pix no topo da página
 
 ### Aspirador Robo Keep Clean 
 ```{r Aspirador_Robo_Keep_Clean, echo=FALSE, out.width = '80%', fig.align='left'}
@@ -102,6 +111,7 @@ knitr::include_graphics("imgs/Assadeira_Retangular_Aluminio_Ecolon.jpg")
 
 #### R$ 268,37
 
+#### Chave pix no topo da página
 
 ### Conjunto de panelas 
 ```{r conjunto-de-panela-ferro-fundido-2-pecas, echo=FALSE, out.width = '80%', fig.align='center'}
@@ -110,12 +120,16 @@ knitr::include_graphics("imgs/conjunto-de-panela-ferro-fundido-2-pecas.jpg")
 
 #### R$ 259,04
 
+#### Chave pix no topo da página
+
 ### Conjunto para sala de jantar 
 ```{r conjunto-para-sala-de-jantar-com-mesa-e-4-lugares, echo=FALSE, out.width = '80%', fig.align='right'}
 knitr::include_graphics("imgs/conjunto-para-sala-de-jantar-com-mesa-e-4-lugares.jpg")
 ```
 
 #### R$ 725,31
+
+#### Chave pix no topo da página
 
 ### Cooktop elétrico 
 ```{r cooktop-eletrico-4-bocas, echo=FALSE, out.width = '80%', fig.align='left'}
@@ -124,12 +138,16 @@ knitr::include_graphics("imgs/cooktop-eletrico-4-bocas.jpg")
 
 #### R$ 2.694,02
 
+#### Chave pix no topo da página
+
 ### Coral pra cantar "Aleluia" na entrada do noivo 
 ```{r coral_de_casamento, echo=FALSE, out.width = '80%', fig.align='left'}
 knitr::include_graphics("imgs/coral_de_casamento.jpg")
 ```
 
 #### R$ 569,89 
+
+#### Chave pix no topo da página
 
 </div>
 
@@ -142,6 +160,7 @@ knitr::include_graphics("imgs/Batedeira_Planetaria_Bowl_750W.jpg")
 
 #### R$ 512,90
 
+#### Chave pix no topo da página
 
 ### Capacete contra rolo de macarrão para o noivo
 ```{r capacete, echo=FALSE, out.width = '80%', fig.align='left'}
@@ -150,12 +169,16 @@ knitr::include_graphics("imgs/capacete.jpg")
 
 #### R$ 165,79
 
+#### Chave pix no topo da página
+
 ### Cesto de Roupa Trama com Tampa e Rodízios
 ```{r Cesto_de_Roupa_Trama_com_Tampa, echo=FALSE, out.width = '80%', fig.align='left'}
 knitr::include_graphics("imgs/Cesto_de_Roupa_Trama_com_Tampa.jpg")
 ```
 
 #### R$ 326,39
+
+#### Chave pix no topo da página
 
 ### Chaleira Elétrica Gourmand Gris 1,8L
 ```{r Chaleira_Eletrica_Gourmand_Gris, echo=FALSE, out.width = '80%', fig.align='left'}
@@ -164,13 +187,16 @@ knitr::include_graphics("imgs/Chaleira_Eletrica_Gourmand_Gris.jpg")
 
 #### R$ 466,27
 
+#### Chave pix no topo da página
+
 ### Conjunto de bowl 
 ```{r conjunto-de-bowl-em-ceramica-4-pecas, echo=FALSE, out.width = '80%', fig.align='left'}
 knitr::include_graphics("imgs/conjunto-de-bowl-em-ceramica-4-pecas.jpg")
 ```
 
-
 #### R$ 356,44
+
+#### Chave pix no topo da página
 
 ### Conjunto de controle remotos para não ter briga 
 ```{r controles_remotos, echo=FALSE, out.width = '80%', fig.align='left'}
@@ -179,12 +205,16 @@ knitr::include_graphics("imgs/controles_remotos.jpg")
 
 #### R$ 155,42
 
+#### Chave pix no topo da página
+
 ### Conjunto de descascador de alimentos 
 ```{r conjunto-de-descascador-de-alimentos, echo=FALSE, out.width = '80%', fig.align='left'}
 knitr::include_graphics("imgs/conjunto-de-descascador-de-alimentos.jpg")
 ```
 
 #### R$ 82,79
+
+#### Chave pix no topo da página
 
 
 ### Cortador de pizza 
@@ -194,6 +224,8 @@ knitr::include_graphics("imgs/cortador-de-pizza.jpg")
 
 #### R$ 32,12 
 
+#### Chave pix no topo da página
+
 
 ### Cota "amigos para sempre" 
 ```{r amigos_velhinhos, echo=FALSE, out.width = '80%', fig.align='left'}
@@ -202,12 +234,16 @@ knitr::include_graphics("imgs/amigos_velhinhos.jpg")
 
 #### R$ 2.590,41
 
+#### Chave pix no topo da página
+
 ### edredon
 ```{r edredon, echo=FALSE, out.width = '80%', fig.align='left'}
 knitr::include_graphics("imgs/amigos_velhinhos.jpg")
 ```
 
 #### R$ 2.590,41
+
+#### Chave pix no topo da página
 
 </div>
 
