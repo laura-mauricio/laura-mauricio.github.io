@@ -1,2 +1,2 @@
 # laura-mauricio.github.io
-Site casamento Laura e Mauricio
+Site casamento Laura e Maurício

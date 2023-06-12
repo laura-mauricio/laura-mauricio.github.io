@@ -1,10 +1,10 @@
 html_document:
   anchor_sections: false
-name: "Casamento Laura & Mauricio"
+name: "Casamento Laura & Maurício"
 output_dir: "."
 base_url: https://yclavinas.github.io
 navbar:
-  title: "Casamento Laura & Mauricio"
+  title: "Casamento Laura & Maurício"
   left:
     - text: "Home"
       href: index.html
